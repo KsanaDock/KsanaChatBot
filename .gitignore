@@ -1,0 +1,93 @@
+# 编译输出
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.tgz
+
+# Maven/Gradle 构建文件
+**/target/
+**/build/
+**/*.jar
+**/*.war
+**/*.ear
+
+# IDE文件
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 配置文件（包含敏感信息）
+application-local.yml
+application-dev.yml
+*.properties
+!application-example.yml
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 缓存文件
+.cache/
+node_modules/
+
+# 环境变量文件
+.env
+.env.local
+.env.development
+.env.production
+
+# 密钥和证书文件
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+
+# 上传文件目录
+uploads/
+files/
+*Resources/
+chatbot-resources/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+
+# 其他敏感文件
+secrets/
+config/local/
